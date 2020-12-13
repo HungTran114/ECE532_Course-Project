@@ -1,24 +1,20 @@
 # ECE532_Course-Project
 
 1. Project Dataset: 
-I will use the dataset “Human Activity Recognition Using Smartphones” from UCI Repository (the .csv version is from Kaggle).
-https://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions
-https://www.kaggle.com/uciml/human-activity-recognition-with-smartphones/version/2
-Dataset: “Human Activity Recognition Using Smartphones” from UCI Repository, 10929 rows of data with 563 attributes, multiclass classification into 6 different activities performed (walking, walking upstairs, walking downstairs, sitting, standing, laying)
+My chosen dataset for this project is: “Human Activity Recognition Using Smartphones” from UCI Repository. 
 
-Notes: 
-The dataset was built from the recordings of 30 study participants performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors. The objective is to classify activities into one of the six activities performed (walking, walking upstairs, walking downstairs, sitting, standing, laying). 
-Notes: The data has been pre-processing as followed:
-Using the phone’s embedded accelerometer and gyroscope, the dataset captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
-For each record in the dataset the following is provided:
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope.
-- A 561-feature vector with time and frequency domain variables.
-- Its activity labels.
-- An identifier of the subject who carried out the experiment.
+In this dataset, a group of 30 volunteers perform each perform six activities: walking, walking upstairs, walking downstairs, sitting, standing, and laying while wearing a smartphone. The smartphone’s accelerometer and gyroscope will capture 3-axial linear acceleration and 3-axial angular velocity at a rate of 50Hz. 
+For each record, a 561-feature vector is created by calculating variables from the time and frequency domain. The detailed pre-processing is detailed in this link:
+https://www.kaggle.com/uciml/human-activity-recognition-with-smartphones
+
+In total, there are 10929 rows of data with 563 attributes:
+- 561-feature vector
+- Subject: identifier of the volunteer
+- Activity label: one of six (walking, walking upstairs, walking downstairs, sitting, standing, and laying)
+The data has been separated into a 70% training set and 30% test set.
 
 2. Algorithms: 
-The algorithms that I am planning to use with this dataset are: 
+The algorithms that I use with this dataset are: 
 - linear regression, 
 - KNN,
 - SVM kernel regression
