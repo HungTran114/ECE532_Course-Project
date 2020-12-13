@@ -20,24 +20,7 @@ For each record in the dataset the following is provided:
 2. Algorithms: 
 The algorithms that I am planning to use with this dataset are: 
 - linear regression, 
-- SVM,
-- neural networks
-These algorithms will be trained on the training set and compare with each other based on the accuracy on the test set.
-
-3. Update 1:
-My first algorithm is linear regression. So, my plan is to build 6 different models and then choose the predicting the label for which the corresponding classifier reports the highest confidence score.
-I tried least square and ridge regression for my model. As I was getting very high singular value, I think regularization is necessary. I will try LASSO after regularization, and maybe some cross validation to see which value of lambda work best.
-However, I am getting really high error rate, which makes me think that linear regression may not be the best way for this problem. 
-
-4. Update 2: 
-So, I found out that multi-class classification, logistic regression is a much better way instead of linear regression by applying it repeatedly as one-vs-all classification, because logistic regression predict results that are interpreted as class probabilities.
-I am studying sklearn package to build logistic regression and SVM model. 
-I am planning to use PCA from sklearn to pick out meaningful features. Then potentially build a logistic regression model from the new matrix created by PCA.
-Also, I am reseaching the GridSearchCV function of sklearn package to understand how to tune hyperparameter. 
-
-I have updated the files on my GitHub.
-Going ahead, my plan will be:
-- Finish up and understand logistic regression and SVM using sklearn
-- Neural network: I think this will fit well with the non-linearity nature of my dataset.
-
+- KNN,
+- SVM kernel regression
+These algorithms will be trained on the training set and compare with each other based on the accuracy on the test set. You can find the necessary ipynb file in this folder.
 
