@@ -22,5 +22,6 @@ The algorithms that I am planning to use with this dataset are:
 - linear regression, 
 - KNN,
 - SVM kernel regression
-These algorithms will be trained on the training set and compare with each other based on the accuracy on the test set. You can find the necessary ipynb file in this folder.
+These algorithms will be trained on the training set and compare with each other based on the accuracy on the test set. You can find the necessary ipynb file in this folder. The two data file (train.csv and test.csv) can be found in the file input.zip.
+
 
